@@ -79,20 +79,6 @@ class MainActivity : AppCompatActivity() {
             )
         }
 
-        if (isLocationApproved()){
-            Handler(Looper.getMainLooper()).postDelayed({
-                getCurrentLocation()
-            },300)
-        }else{
-            requestPermissions(
-                arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
-                LocationHandler.LOCATION_PERMISSION
-            )
-
-        }
-
-
-
         onclickMethod()
         initProgressDialog()
     }
