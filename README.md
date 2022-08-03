@@ -1,5 +1,5 @@
 # Navigation-MapBox-Android
-Navigation MapBox Android
+Navigation using old MapBox SDK in Android
 
 # MapBox Key
 Change your MapBox key in gradle.properties & build.gradle
